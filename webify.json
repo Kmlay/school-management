@@ -1,0 +1,11 @@
+{
+  "buildCommand": "",
+  "outputDir": "",
+  "installCommand": "",
+  "devCommand": "",
+  "framework": "static",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
