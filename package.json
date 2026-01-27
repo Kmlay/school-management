@@ -1,8 +1,13 @@
 {
   "name": "school-management",
   "version": "1.0.0",
-  "private": true,
+  "description": "小学管理系统",
+  "main": "index.html",
   "scripts": {
-    "build": "echo 'Build completed'"
-  }
+    "dev": "echo '开发服务器'",
+    "build": "echo '静态网站，无需构建'"
+  },
+  "keywords": ["school", "management"],
+  "author": "",
+  "license": "MIT"
 }
