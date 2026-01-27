@@ -1,0 +1,22 @@
+{
+  "name": "school-management",
+  "version": "1.0.0",
+  "description": "小学管理系统 - 基于Vercel和Supabase",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Build completed'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "school",
+    "management",
+    "supabase",
+    "vercel",
+    "education"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
