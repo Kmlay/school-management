@@ -1,10 +1,10 @@
 // 页面路由模块
 import { renderDashboard } from './pages/dashboard.js';
 import { renderClasses } from './pages/classes.js';
-import { renderStudents } from './pages/students.js';
-import { renderTeachers } from './pages/teachers.js';
-import { renderScores } from './pages/scores.js';
-import { renderReports } from './pages/reports.js';
+// import { renderStudents } from './pages/students.js';
+// import { renderTeachers } from './pages/teachers.js';
+// import { renderScores } from './pages/scores.js';
+// import { renderReports } from './pages/reports.js';
 import { showNotification } from './utils/helpers.js';
 
 const pageMap = {
@@ -18,26 +18,26 @@ const pageMap = {
         description: '管理班级信息',
         render: renderClasses
     },
-    students: {
-        title: '学生管理',
-        description: '管理学生信息',
-        render: renderStudents
-    },
-    teachers: {
-        title: '教师管理',
-        description: '管理教师信息',
-        render: renderTeachers
-    },
-    scores: {
-        title: '成绩录入',
-        description: '录入和管理学生成绩',
-        render: renderScores
-    },
-    reports: {
-        title: '成绩报表',
-        description: '查看成绩统计和分析',
-        render: renderReports
-    }
+    // students: {
+    //     title: '学生管理',
+    //     description: '管理学生信息',
+    //     render: renderStudents
+    // },
+    // teachers: {
+    //     title: '教师管理',
+    //     description: '管理教师信息',
+    //     render: renderTeachers
+    // },
+    // scores: {
+    //     title: '成绩录入',
+    //     description: '录入和管理学生成绩',
+    //     render: renderScores
+    // },
+    // reports: {
+    //     title: '成绩报表',
+    //     description: '查看成绩统计和分析',
+    //     render: renderReports
+    // }
 };
 
 export async function showPage(pageName) {
