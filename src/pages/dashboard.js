@@ -77,9 +77,9 @@ export async function renderDashboard() {
                     </div>
                 </div>
                 <div style="line-height: 1.6; color: var(--gray-600);">
-                    <p>🎯 <strong>系统功能完整，包含：</strong></p>
+                    <p>🎯 <strong>系统功能完整（待开发中），包含：</strong></p>
                     <ul style="margin: 1rem 0 1rem 1.5rem;">
-                        <li>班级管理（1-6年级）</li>
+                        <li>班级管理</li>
                         <li>学生信息管理</li>
                         <li>教师信息管理</li>
                         <li>成绩录入与统计</li>
