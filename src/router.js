@@ -10,7 +10,7 @@ import { showNotification } from './utils/helpers.js';
 const pageMap = {
     dashboard: {
         title: '数据看板',
-        description: '系统概览和统计数据',
+        description: 'Demo网站，众多功能待开发中',
         render: renderDashboard
     },
     classes: {
